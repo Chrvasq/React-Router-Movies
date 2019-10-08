@@ -5,7 +5,6 @@ import MovieCard from "./MovieCard";
 const Movie = props => {
   const [movie, setMovie] = useState();
 
-  console.log("Props", props);
   useEffect(() => {
     const id = props.match.params.id;
     // change ^^^ that line and grab the id from the URL
